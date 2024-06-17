@@ -14,8 +14,10 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "@reduxjs/toolkit": "^2.0.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.0.4"
   },
   "scripts": {
     "dev": "vite",
@@ -23,6 +25,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
+    "test-storybook": "test-storybook --watch",
     "init-msw": "msw init public/",
     "release": "standard-version"
   },
@@ -35,6 +38,7 @@
     "@storybook/react": "^8.1.4",
     "@storybook/react-vite": "^8.1.4",
     "@storybook/test": "^8.1.4",
+    "@storybook/test-runner": "^0.18.2",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",
@@ -53,5 +57,10 @@
   },
   "resolutions": {
     "jackspeak": "2.1.1"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
   }
 }
