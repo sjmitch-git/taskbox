@@ -219,7 +219,8 @@ textarea {
 @font-face {
   font-family: "percolate";
   src: url("./assets/icon/percolate.eot?-5w3um4");
-  src: url("./assets/icon/percolate.eot?#iefix5w3um4") format("embedded-opentype"),
+  src:
+    url("./assets/icon/percolate.eot?#iefix5w3um4") format("embedded-opentype"),
     url("./assets/icon/percolate.woff?5w3um4") format("woff"),
     url("./assets/icon/percolate.ttf?5w3um4") format("truetype"),
     url("./assets/icon/percolate.svg?5w3um4") format("svg");
@@ -431,7 +432,7 @@ textarea {
 }
 
 .page.lists-show nav {
-  background: #d3edf4;
+  background: #28798f;
   padding: 1.5rem 1.25rem;
   text-align: center;
 }
@@ -452,7 +453,7 @@ textarea {
   overflow: hidden;
   text-overflow: ellipsis;
   font-weight: 800;
-  color: #1c3f53;
+  color: #fff;
   display: inline-block;
   vertical-align: top;
   max-width: 100%;
