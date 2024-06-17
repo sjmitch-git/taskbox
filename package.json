@@ -31,7 +31,7 @@
     "test-storybook": "test-storybook --watch",
     "init-msw": "msw init public/",
     "release": "standard-version",
-    "chromatic": "npx chromatic --project-token=chpt_3457e6cb04ce4d0"
+    "chromatic": "chromatic --exit-zero-on-changes"
   },
   "devDependencies": {
     "@storybook/addon-a11y": "^8.1.9",
